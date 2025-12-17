@@ -1,1 +1,47 @@
+name: Update Progress Badge
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # daily at midnight UTC (optional)
+
+jobs:
+  update-progress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - name: Generate JSON for Badge
+        run: |
+          import json
+
+          with open("progress.json") as f:
+              data = json.load(f)
+
+          total = data["total_days"]
+          completed = data["completed_days"]
+          percent = int((completed / total) * 100)
+
+          # Create JSON file for shields.io
+          badge_data = {
+              "schemaVersion": 1,
+              "label": "Progress",
+              "message": f"{percent}%",
+              "color": "green" if percent >= 70 else "yellow" if percent >= 40 else "red"
+          }
+
+          with open("progress-badge.json", "w") as f:
+              json.dump(badge_data, f)
+
+      - name: Commit and Push Badge JSON
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add progress-badge.json
+          git commit -m "Update progress badge"
+          git push
