@@ -1,6 +1,6 @@
 <h1 align="center">Day 05 Progress - Micro Challenges</h1>
+<h3 align="center"><b>Date: 19/12/2025</b></h3>
 
-## Date: Day 05
 
 ---
 
