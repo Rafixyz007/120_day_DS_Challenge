@@ -1,6 +1,5 @@
-# Day 02 Progress - Micro Challenges
-
-## Date: Day 02
+<h1 align="center">Day 02 Progress - Micro Challenges</h1>
+<h3 align="center"><b>Date: 16/12/2025</b></h3>
 
 ---
 
