@@ -53,6 +53,43 @@ Every line of code, note, and experiment contributes to **mastering the skills t
 
 ---
 
+## file structure
+
+120-Day Machine Learning Career Mastery Challenge/
+│
+├── README.md                  # High-level overview and badges
+├── LICENSE                    # MIT License
+├── progress.json              # Daily raw progress data
+├── progress-badge.json        # Badge JSON for Shields.io
+├── PROGRESS.md                # Central log: one line per day
+│
+├── week_01/
+│   ├── day_01/
+│   │   ├── README.md          # Daily summary: goals, execution, reflections
+│   │   ├── notes.md           # Optional theory or formula notes
+│   │   └── code.py            # Scripts, experiments, or notebooks
+│   ├── day_02/
+│   ├── day_03/
+│   ├── day_04/
+│   └── day_05/
+│
+├── week_02/
+│   ├── day_01/
+│   ├── day_02/
+│   ├── day_03/
+│   ├── day_04/
+│   └── day_05/
+│
+├── week_03/
+│   └── ...                     # Continue same pattern up to week_17/day_07
+│
+├── week_17/
+│   └── day_07/
+│
+└── utils/                     # Optional helper scripts, data preprocessing
+    └── __init__.py
+
+
 ## Progress Tracking
 
 Progress is tracked in **three layers**:
