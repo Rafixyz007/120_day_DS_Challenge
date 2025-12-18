@@ -1,4 +1,4 @@
-# 120-Day Machine Learning Career Acceleration Challenge
+# <center> 120-Day Machine Learning Career Acceleration Challenge </center>
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rafixyz007/120_day_DS_Challenge/main/progress-badge.json&cacheSeconds=60)]()
@@ -54,7 +54,7 @@ Every line of code, note, and experiment contributes to **mastering the skills t
 ---
 
 ## file structure
-
+```
 120-Day Machine Learning Career Mastery Challenge/
 │
 ├── README.md                  # High-level overview and badges
@@ -74,13 +74,6 @@ Every line of code, note, and experiment contributes to **mastering the skills t
 │   └── day_05/
 │
 ├── week_02/
-│   ├── day_01/
-│   ├── day_02/
-│   ├── day_03/
-│   ├── day_04/
-│   └── day_05/
-│
-├── week_03/
 │   └── ...                     # Continue same pattern up to week_17/day_07
 │
 ├── week_17/
@@ -88,7 +81,7 @@ Every line of code, note, and experiment contributes to **mastering the skills t
 │
 └── utils/                     # Optional helper scripts, data preprocessing
     └── __init__.py
-
+```
 
 ## Progress Tracking
 
