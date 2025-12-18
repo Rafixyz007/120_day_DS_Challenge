@@ -4,16 +4,24 @@
 [![Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rafixyz007/120_day_DS_Challenge/main/progress-badge.json&cacheSeconds=60)]()
 [![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)
 
-Welcome! This repository documents my **120-day (4-month) Machine Learning career acceleration journey**, designed to build strong fundamentals, hands-on skills, and professional habits needed to land a **Machine Learning / AI role**.  
+---
 
-This is a **mentor-guided, time-bound, and publicly documented challenge** to ensure accountability and measurable progress.
+## Welcome
+
+**Embark on my 120-day Machine Learning journey!**  
+
+This challenge is crafted to **strengthen my foundations in machine learning, AI, and data science**, while building practical, hands-on skills through real projects and exercises. Along the way, I aim to **develop the discipline, problem-solving ability, and professional habits** necessary to succeed in a Machine Learning / AI role.  
+
+Guided by a mentor, this is a **time-bound, publicly documented challenge** that ensures **accountability, measurable progress, and a clear learning trail** for reflection and feedback.  
+
+Every line of code, note, and experiment contributes to **mastering the skills that matter in real-world ML applications**.
 
 ---
 
 ## Objectives
 
 - Build **strong foundations** in mathematics, statistics, and machine learning  
-- Develop **hands-on experience** through daily practice and projects  
+- Gain **hands-on experience** through daily practice and mini-projects  
 - Improve **problem-solving and implementation skills**  
 - Cultivate **professional habits**: documentation, logging, and consistency  
 - Create a **transparent learning trail** for review and feedback  
@@ -29,47 +37,55 @@ This is a **mentor-guided, time-bound, and publicly documented challenge** to en
 ---
 
 
+> ⚡ *Tip:* Each day folder should be self-contained so anyone reviewing your work can easily follow your progress.
+
 ---
 
 ## How to Navigate
 
-- Each **week** contains 5–7 **daily folders**  
-- Each **day folder** documents:
-  - What was **planned**  
-  - What was **executed**  
-  - What was **learned**  
-- **Central progress log** (`PROGRESS.md`) summarizes each day in one line  
+- Each **week folder** contains 5–7 **daily folders**  
+- Each **day folder** should include:
+  - `README.md` → Goals, work done, reflections  
+  - `notes.md` → Optional theory or formula notes  
+  - `code.py` → Scripts, experiments, or Jupyter notebooks  
+- **PROGRESS.md** → High-level daily log for accountability  
+- **progress-badge.json** → Automatically updates the progress badge in README  
 
 ---
 
 ## Progress Tracking
 
-Progress is tracked in two ways:  
+Progress is tracked in **three layers**:
 
-1. **progress.json** → Raw daily progress  
-2. **progress-badge.json** → Used for the **Shields.io badge**  
-3. **week_n/day_n/README.md** → Detailed daily work, reflections, and experiments  
+1. **Raw Data** → `progress.json` (update daily with “Day XX” or percent completed)  
+2. **Badge JSON** → `progress-badge.json` (Shields.io compatible for README badge)  
+3. **Detailed Logs** → `week_n/day_n/README.md` (notes, reflections, outputs)
 
-> *Tip: Update `progress.json` daily; the badge automatically reflects your progress via `progress-badge.json`.*
+> Keeping these layers separate ensures clarity and maintainability.
 
 ---
 
 ## Mentor Guidance
 
-This challenge is conducted **under mentor guidance**, with periodic reviews, feedback, and course corrections to ensure meaningful learning and growth.
+- This challenge is conducted **under mentor guidance**, with periodic reviews and feedback.  
+- Guidance ensures that your daily logs, code, and reflections **align with learning goals**.
 
 ---
 
 ## Disclaimer
 
-This repository represents an **active learning process**, not a polished production library. Content, structure, and approaches evolve as understanding deepens.
+This repository is an **active learning journal**, not a production-ready library.  
+- Content and folder structure may evolve over time.  
+- Focus is on **learning, documentation, and habit-building**.
 
 ---
 
 ## Let's Go!
 
-Every line of code, every note, and every reflection is a step toward mastering **Machine Learning**.  
-Follow along, contribute, or get inspired!  
+Every line of code, note, and reflection is a step toward mastering **Machine Learning**.  
+- Follow along  
+- Contribute if you want  
+- Or simply get inspired by the journey!
 
 ---
 
