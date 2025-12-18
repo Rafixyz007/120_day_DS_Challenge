@@ -78,9 +78,6 @@ Every line of code, note, and experiment contributes to **mastering the skills t
 │
 ├── week_17/
 │   └── day_07/
-│
-└── utils/                     # Optional helper scripts, data preprocessing
-    └── __init__.py
 ```
 
 ## Progress Tracking
