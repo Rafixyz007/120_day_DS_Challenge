@@ -1,4 +1,4 @@
-# 🚀 120-Day Machine Learning Career Acceleration Challenge
+# 120-Day Machine Learning Career Acceleration Challenge
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rafixyz007/120_day_DS_Challenge/main/progress.json)]()
@@ -10,7 +10,7 @@ This is a **mentor-guided, time-bound, and publicly documented challenge** to en
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Build **strong foundations** in mathematics, statistics, and machine learning  
 - Develop **hands-on experience** through daily practice and projects  
@@ -20,7 +20,7 @@ This is a **mentor-guided, time-bound, and publicly documented challenge** to en
 
 ---
 
-## 📅 Challenge Duration
+## Challenge Duration
 
 - **Start Date:** 15 Dec 2025  
 - **End Date:** 15 Apr 2026  
@@ -28,12 +28,12 @@ This is a **mentor-guided, time-bound, and publicly documented challenge** to en
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 
 ---
 
-## 🔍 How to Navigate
+##  How to Navigate
 
 - Each **week** contains 5–7 **daily folders**  
 - Each **day folder** documents:
@@ -44,37 +44,37 @@ This is a **mentor-guided, time-bound, and publicly documented challenge** to en
 
 ---
 
-## 📈 Progress Tracking
+## Progress Tracking
 
 Progress is tracked in two ways:  
 
 1. **PROGRESS.md** → High-level daily accountability  
 2. **week_n/day_n/README.md** → Detailed daily work, reflections, and experiments  
 
-> 💡 *Tip: Update `progress.json` daily; the badge will automatically reflect your progress via GitHub Actions.*
+>  *Tip: Update `progress.json` daily; the badge will automatically reflect your progress via GitHub Actions.*
 
 ---
 
-## 🧑‍🏫 Mentor Guidance
+## Mentor Guidance
 
 This challenge is conducted **under mentor guidance**, with periodic reviews, feedback, and course corrections to ensure meaningful learning and growth.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This repository represents an **active learning process**, not a polished production library. Content, structure, and approaches evolve as understanding deepens.
 
 ---
 
-## ✨ Let's Go!
+## Let's Go!
 
 Every line of code, every note, and every reflection is a step toward mastering **Machine Learning**.  
 Follow along, contribute, or get inspired!  
 
 ---
 
-## 🔗 Useful Links
+## Useful Links
 
 - [Python Official Site](https://www.python.org/)  
 - [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)  
