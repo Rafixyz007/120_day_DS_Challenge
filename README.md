@@ -1,7 +1,7 @@
 # 🚀 120-Day Machine Learning Career Acceleration Challenge
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/<Rafixyz007>/<120_day_DS_Challenge>/main/progress-badge.json)]()
+[![Progress](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rafixyz007/120_day_DS_Challenge/main/progress-badge.json)]()
 [![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)
 
 Welcome! This repository documents my **120-day (4-month) Machine Learning career acceleration journey**, designed to build strong fundamentals, hands-on skills, and professional habits needed to land a **Machine Learning / AI role**.  
