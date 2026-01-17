@@ -1,80 +1,105 @@
-<h1 align="center">Day 13 Progress – File Handling & Serialization</h1> <h3 align="center"><b>Date: 17/01/2026</b></h3>
-1️ The Safe Open
+<h1 align="center">Day 13 Progress – File Handling & Serialization</h1>
+<h3 align="center"><b>Date: 17/01/2026</b></h3>
 
-What we did:
-Wrote to a file using a with statement so that it closes automatically without calling .close().
+---
 
-What we learned:
-Context managers (with) ensure files are safely opened and closed, preventing resource leaks.
+## 1️ The Safe Open
+**What we did:**  
+Used a `with open()` block to write to a file without manually closing it.
 
-2️ Append vs Write
+**What we learned:**  
+Python’s context manager automatically handles file closing, even if an error occurs, preventing resource leaks.
 
-What we did:
-Appended a new line to an existing file without overwriting old content.
+---
 
-What we learned:
-Opening a file in append mode ('a') preserves existing content and adds new data at the end.
+## 2️ Append vs Write
+**What we did:**  
+Added text to an existing file without deleting its previous content using append mode (`'a'`).
 
-3️ Binary Mode
+**What we learned:**  
+Append mode preserves existing content while allowing new data to be added at the end of the file.
 
-What we did:
-Read an image file using binary mode ('rb') and printed its size.
+---
 
-What we learned:
-Binary mode is necessary for non-text files. Reading in bytes prevents decoding errors.
+## 3️ Binary Mode
+**What we did:**  
+Opened and read an image file in binary mode (`'rb'`).
 
-4️ Encoding Hell
+**What we learned:**  
+Binary mode is required for non-text files like images, ensuring the data is read as raw bytes instead of text.
 
-What we did:
-Wrote text containing emojis using UTF-8 encoding.
+---
 
-What we learned:
-Specifying UTF-8 encoding avoids UnicodeDecodeError and supports all Unicode characters.
+## 4️ Encoding Hell
+**What we did:**  
+Opened a text file in UTF-8 encoding and wrote emojis and special characters.
 
-5️ JSON Serialization
+**What we learned:**  
+Using the correct encoding (UTF-8) prevents `UnicodeDecodeError` and allows writing non-ASCII characters safely.
 
-What we did:
-Saved a Python dictionary to a JSON file using json.dump().
+---
 
-What we learned:
-The json module allows easy serialization of Python objects for storage or transfer.
+## 5️ JSON Serialization
+**What we did:**  
+Saved a Python dictionary to a file using the `json` module.
 
-6️ CSV Parsing
+**What we learned:**  
+`json.dump()` converts Python objects into JSON format and writes them to a file. Using `with` ensures safe file handling.
 
-What we did:
-Created a CSV file using csv.DictWriter and read it back as a list of dictionaries with csv.DictReader.
+---
 
-What we learned:
-CSV files can be easily handled as dictionaries, making data access intuitive in Python.
+## 6️ CSV Parsing
+**What we did:**  
+Created a CSV file with `csv.DictWriter` and read it back into a list of dictionaries with `csv.DictReader`.
 
-7️ Buffering
+**What we learned:**  
+- CSV files can be easily read and written as dictionaries for structured data.  
+- Using `with` ensures files are properly opened and closed.
 
-What we did:
+---
+
+## 7️ Buffering
+**What we did:**  
 Wrote 1 million lines to a file.
 
-What we learned:
-Python buffers file writes in memory, so the disk doesn’t physically write every single line immediately.
+**What we learned:**  
+Writing large files doesn’t make the disk spin once per line due to buffering. Python writes data in chunks for efficiency.
 
-8️ Pathlib
+---
 
-What we did:
-Safely joined folder and filename using pathlib.Path.
+## 8️ Pathlib
+**What we did:**  
+Safely joined folder and filename paths using `pathlib.Path`.
 
-What we learned:
-Path provides a cross-platform way to handle file paths on Windows, Mac, or Linux.
+**What we learned:**  
+`pathlib` provides a cross-platform way to handle file paths without worrying about OS-specific separators.
 
-9️ Custom Context Manager
+---
 
-What we did:
-Created a Timer context manager to measure execution time of a code block.
+## 9️ Custom Context Manager
+**What we did:**  
+Created a `Timer` class to measure execution time of a code block using `with Timer():`.
 
-What we learned:
-Custom context managers with __enter__ and __exit__ allow automatic setup and cleanup around code blocks.
+**What we learned:**  
+Custom context managers allow setup and cleanup operations for any block of code, following the `__enter__` and `__exit__` protocol.
 
-10 Pickle (The Warning)
+---
 
-What we did:
-Saved and loaded a Python object using pickle.
+## 10 Pickle (Serialization)
+**What we did:**  
+Serialized a Python object (class instance) to a file with `pickle.dump()` and loaded it back using `pickle.load()`.
 
-What we learned:
-pickle can serialize Python objects for storage, but loading pickle files should be done carefully as it can execute arbitrary code.
+**What we learned:**  
+Pickle allows saving and restoring Python objects while preserving their state. Always use binary mode (`'wb'` / `'rb'`) for pickling.
+
+---
+
+## Summary
+**What we did:**  
+Explored writing, reading, appending files, handling encodings, working with JSON, CSV, large files, path manipulations, custom context managers, and object serialization with Pickle.
+
+**What we learned:**  
+- File handling is safe and efficient using context managers.  
+- Encoding matters for text data.  
+- Serialization (JSON, Pickle) allows persisting Python objects.  
+- `pathlib` and custom context managers make code cleaner and more portable.
