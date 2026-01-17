@@ -85,7 +85,7 @@ Custom context managers allow setup and cleanup operations for any block of code
 
 ---
 
-## 10 Pickle (Serialization)
+## 10 Pickle (The Warning)
 **What we did:**  
 Serialized a Python object (class instance) to a file with `pickle.dump()` and loaded it back using `pickle.load()`.
 
